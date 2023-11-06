@@ -15,6 +15,8 @@ namespace HocGit.Controllers
 
         public IActionResult Index()
         {
+            var chuoi = "Chào bạn nhé, đây là nhánh 1";
+            ViewBag.Chuoi = chuoi;
             return View();
         }
 
